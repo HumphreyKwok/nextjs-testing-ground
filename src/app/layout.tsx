@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer";
-import DarkModeProvider from "@/providers/DarkProvider";
+import DarkModeProvider from "@/providers/darkProvider";
 
 export const metadata: Metadata = {
   title: "NextJS Testing Grond",
