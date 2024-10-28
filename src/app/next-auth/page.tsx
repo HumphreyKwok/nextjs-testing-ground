@@ -17,7 +17,7 @@ const NextAuth = async () => {
         <span>
           Try to{" "}
           <span className="inline-block transition-transform duration-300 hover:-translate-y-1 hover:underline">
-            <Link href={"/api/auth/signin"}>Login</Link>
+            <Link href={"/auth/sign-in"}>Login</Link>
           </span>{" "}
           as{" "}
           <abbr
